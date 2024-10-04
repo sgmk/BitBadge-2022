@@ -7,7 +7,7 @@ Designed by http://www.gaudi.ch
 
 Place topleds on the grid to make your very own design.
 
-
+![](https://github.com/sgmk//BitBadge-2022/raw/main/HandOuts/BitBadge_drafting.jpg)
 
 Draft different designs with the empty canvas. Start with single colour and go beyond later.
 
