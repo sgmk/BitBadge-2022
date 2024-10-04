@@ -1,0 +1,8144 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7cabb541-7143-4a18-b062-d5a795ff80c2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BitBadge-rescue:Battery_Cell"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.5748 1.1938)
+					(end 1.4732 0.6858)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.429) (xy 1.524 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.937) (xy 1.016 2.921)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BitBadge-rescue:Battery_Cell_2x"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell_2x"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_2x_0_1"
+				(rectangle
+					(start -11.176 1.778)
+					(end -6.604 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -10.4648 1.1938)
+					(end -7.4168 0.6858)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.5748 1.1938)
+					(end 1.4732 0.6858)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 0.762) (xy -8.89 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 1.778) (xy -8.89 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.382 3.429) (xy -7.366 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.874 3.937) (xy -7.874 2.921)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.429) (xy 1.524 3.429)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 3.937) (xy 1.016 2.921)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_2x_1_1"
+				(pin passive line
+					(at -8.89 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BitBadge-rescue:LED_ALT"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_ALT"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_ALT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_ALT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BitBadge-rescue:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_* R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BitBadge-rescue:SW_2P3T"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_2P3T"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Field5" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_2P3T_0_0"
+				(circle
+					(center -2.032 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 7.874) (xy 1.524 9.398)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 -3.81)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 -1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 1.27)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 10.16)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_2P3T_0_1"
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_2P3T_1_1"
+				(pin passive line
+					(at 6.35 10.16 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 7.62 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_2P3T_2_1"
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 10.16 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 5.08 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 7.62 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 156.21 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03f751a8-dca3-4e44-afd4-936a0b26ab7f")
+	)
+	(junction
+		(at 129.54 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06b4b928-daa2-4dca-881d-eac9cb49feef")
+	)
+	(junction
+		(at 93.98 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06fab8ea-d5f2-4540-ba7c-f4536108df83")
+	)
+	(junction
+		(at 111.76 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5dcd69-d94b-4888-ad0d-cd2b9659a713")
+	)
+	(junction
+		(at 138.43 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd4d5fa-0740-4d8a-bfaf-2091ddbc1aeb")
+	)
+	(junction
+		(at 153.67 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e0c7635-a13b-4843-baeb-0401f8168153")
+	)
+	(junction
+		(at 102.87 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "103707a6-e60e-4744-80f8-4f6471265612")
+	)
+	(junction
+		(at 85.09 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11c10da3-ca0e-40d7-96dd-9d2a7f6377c8")
+	)
+	(junction
+		(at 129.54 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11e0d159-c18e-44cf-a200-54b3f39f41ec")
+	)
+	(junction
+		(at 102.87 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14ea7d27-f7d5-487d-a9ab-50e80212f618")
+	)
+	(junction
+		(at 102.87 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "160e012c-d981-4d4d-aa20-f9f1ec46fa68")
+	)
+	(junction
+		(at 120.65 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "189d7878-773d-4b79-83f2-69c3a5ed0bf9")
+	)
+	(junction
+		(at 129.54 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1baa2f20-4f2e-41ed-be2b-9e21e2f7dd43")
+	)
+	(junction
+		(at 120.65 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bd0015e-8028-470d-8d9e-4d0b83b11a75")
+	)
+	(junction
+		(at 111.76 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20738013-1089-4ba6-9e58-ab701f531d56")
+	)
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23df7385-fa67-477d-a4de-759b8a54cf5d")
+	)
+	(junction
+		(at 120.65 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "240b8443-43a5-4558-b9b3-018de87ae462")
+	)
+	(junction
+		(at 120.65 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2566de8e-09ef-495a-98a3-94c8085a8384")
+	)
+	(junction
+		(at 138.43 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267e0768-ebaf-43c8-bf39-26476e78d306")
+	)
+	(junction
+		(at 102.87 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27698a6a-0a2e-4723-b489-7f753f8c2b56")
+	)
+	(junction
+		(at 138.43 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27ac4e86-8211-4dac-8d4e-f7fcf33ddfdf")
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "293db9b4-f749-4018-ae8f-d7dc750d10b4")
+	)
+	(junction
+		(at 93.98 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc9c3ed-424a-42ff-8707-1f5aa9e069d7")
+	)
+	(junction
+		(at 138.43 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2eb79115-3411-4d6c-86b3-b418d41695fc")
+	)
+	(junction
+		(at 129.54 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f07fd6b-4752-4869-8bb3-6a5180ba614f")
+	)
+	(junction
+		(at 93.98 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2d1264-5520-4f44-854c-301630573694")
+	)
+	(junction
+		(at 93.98 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "318ae261-954e-4dbd-ad77-00ebccff0860")
+	)
+	(junction
+		(at 138.43 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33d008c9-49d2-497a-8ab4-4433abda3ecf")
+	)
+	(junction
+		(at 120.65 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37501934-3c77-417a-8e2a-a6dbeced013a")
+	)
+	(junction
+		(at 80.01 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e1611a-8d8e-4ebe-8d02-ae26da743c55")
+	)
+	(junction
+		(at 162.56 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b2f28ab-b4b6-4707-850c-fccd50d655f0")
+	)
+	(junction
+		(at 123.19 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d23fd40-57dc-49b7-ac57-0a63ade5051a")
+	)
+	(junction
+		(at 85.09 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "423f8a15-ba0d-4ee5-9ee9-e5d635184001")
+	)
+	(junction
+		(at 154.94 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45e80499-f846-48ac-85c8-f62386835d91")
+	)
+	(junction
+		(at 88.9 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a34bfb-cc7b-43fb-a606-1f962b7e9635")
+	)
+	(junction
+		(at 147.32 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47a41587-c9bc-4e07-a056-aa781efd3303")
+	)
+	(junction
+		(at 129.54 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4bccf0f1-128b-4317-9a88-3576951007e6")
+	)
+	(junction
+		(at 129.54 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50d56b13-259e-4c61-8f50-7905958bf768")
+	)
+	(junction
+		(at 147.32 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52bbf7f6-e1e4-4055-a864-3ed9e5ef0150")
+	)
+	(junction
+		(at 120.65 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5771f6db-cca5-46e1-9124-fd58028dd50f")
+	)
+	(junction
+		(at 85.09 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "581dfee9-adc9-4ae3-9042-a3b01d52c5c7")
+	)
+	(junction
+		(at 156.21 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5875a087-97be-43e8-a498-008ee11bde04")
+	)
+	(junction
+		(at 147.32 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "590d174d-d7f4-43b5-88bf-cc57cac12419")
+	)
+	(junction
+		(at 138.43 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59644e59-41b3-4e12-b742-d6eb259a1954")
+	)
+	(junction
+		(at 138.43 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6045a388-0a4c-4ae2-826f-9d76ab5728c7")
+	)
+	(junction
+		(at 154.94 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60f79722-356e-482c-a5dc-4bfab4435a5c")
+	)
+	(junction
+		(at 111.76 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61488d11-8a8e-4233-8de1-008e06d8624c")
+	)
+	(junction
+		(at 102.87 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61ab73a7-c32b-4da1-8bc3-fd51e1832f16")
+	)
+	(junction
+		(at 111.76 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6278a770-551f-46ef-800d-09d8d2299ae5")
+	)
+	(junction
+		(at 111.76 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c0fba4-56f4-4e68-9b9a-2529e6c736ad")
+	)
+	(junction
+		(at 102.87 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67c1d918-c349-455b-ad7c-15a432d567b8")
+	)
+	(junction
+		(at 102.87 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "694e07d9-e1a6-4532-9c1c-65ad03b37583")
+	)
+	(junction
+		(at 147.32 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69698684-4b1b-472f-856f-23402a33855a")
+	)
+	(junction
+		(at 102.87 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a318162-dd4e-482b-9ce1-8e113623ef9d")
+	)
+	(junction
+		(at 154.94 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72ba69f1-b6de-4142-9a54-2be75d2a22ec")
+	)
+	(junction
+		(at 120.65 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77d6e1e6-93ee-4682-9b63-2a656ad271d2")
+	)
+	(junction
+		(at 102.87 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7859d7ec-45fe-44fa-ad60-166541323e66")
+	)
+	(junction
+		(at 93.98 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa3f8a3-5094-486a-bf88-2ed5e9cd0fbc")
+	)
+	(junction
+		(at 156.21 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7be9f295-5db0-44e5-9c87-26f2d2f841c8")
+	)
+	(junction
+		(at 129.54 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ca30689-7270-4a74-8e24-34e5ca0668c5")
+	)
+	(junction
+		(at 120.65 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d5debfb-c90c-4e37-a10f-49abab8a5d5a")
+	)
+	(junction
+		(at 120.65 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e4c4d4e-b5d0-4d6d-bb70-63e7e92fada4")
+	)
+	(junction
+		(at 102.87 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eaa44a7-f265-4184-8c3b-18c8d18b548d")
+	)
+	(junction
+		(at 100.33 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f6779c1-f4ae-4315-b9b4-306b33aa4637")
+	)
+	(junction
+		(at 129.54 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83114412-7a4e-450a-968b-de39a522e2d8")
+	)
+	(junction
+		(at 147.32 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d2b6106-5e62-4fe4-be8d-ea453010a6fa")
+	)
+	(junction
+		(at 111.76 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da04da3-7281-4819-879d-dafb88497a6b")
+	)
+	(junction
+		(at 147.32 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c221a7-bced-4618-bea5-3141eaecdf97")
+	)
+	(junction
+		(at 138.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9359edc3-9495-454f-906b-beffb5cc1cf2")
+	)
+	(junction
+		(at 120.65 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9462bb0d-f675-40fd-9f2c-31f58e252a84")
+	)
+	(junction
+		(at 120.65 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "975e635d-0eeb-4da8-9f83-e495084195df")
+	)
+	(junction
+		(at 138.43 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99dd86aa-2f1e-4de4-be62-53722174f23f")
+	)
+	(junction
+		(at 120.65 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0c8ea4-5290-486f-b7b0-57a5ddc75414")
+	)
+	(junction
+		(at 93.98 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cbe2ec8-d9a7-4852-b809-ad8a1e2a8d01")
+	)
+	(junction
+		(at 120.65 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a242650a-85b5-44b5-ae3e-a59f5b056e2a")
+	)
+	(junction
+		(at 111.76 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2fb8e46-255d-4bbf-8378-89611690fc73")
+	)
+	(junction
+		(at 162.56 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3462e56-7223-428d-9ee7-143fe64502a7")
+	)
+	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3ab88c1-9f43-41ac-8e68-80a3b684f12b")
+	)
+	(junction
+		(at 129.54 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b0f909-504f-40ff-8e2b-3ddc067f560d")
+	)
+	(junction
+		(at 120.65 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8088da8-4e18-4032-a52f-4e4261584da5")
+	)
+	(junction
+		(at 111.76 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aafb306c-4024-4e0b-824e-2de5011c54ea")
+	)
+	(junction
+		(at 138.43 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab0ef166-5a80-4684-a8d0-52fea221bf29")
+	)
+	(junction
+		(at 138.43 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aca0e342-cb7e-4107-a43a-abc880b15161")
+	)
+	(junction
+		(at 129.54 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aceb91ff-1d9c-429e-83df-ab9b52390510")
+	)
+	(junction
+		(at 93.98 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae1cf033-0d18-43bb-9cfb-9a6406967af1")
+	)
+	(junction
+		(at 129.54 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4ebf989-f8b0-446c-9438-cc72063816ba")
+	)
+	(junction
+		(at 111.76 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f8c2db-efc8-4c9d-9765-b4fdeb10bc31")
+	)
+	(junction
+		(at 120.65 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba18da93-a8c9-4ff0-b428-d95ac610b50a")
+	)
+	(junction
+		(at 147.32 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba81c834-7913-435a-888d-cc4ff6f69771")
+	)
+	(junction
+		(at 129.54 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bad36cb3-d817-4e2e-9763-85942b46f444")
+	)
+	(junction
+		(at 129.54 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc577960-02ef-41bd-a4c3-59f2b7b6f423")
+	)
+	(junction
+		(at 111.76 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0338a9-c772-47c5-ade7-c5408c6ba5f4")
+	)
+	(junction
+		(at 111.76 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf94af7d-5b01-4046-9339-a8b75a5b4343")
+	)
+	(junction
+		(at 111.76 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c179b691-efb2-4134-9d3a-926ac8a995dc")
+	)
+	(junction
+		(at 147.32 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ef11a8-2571-4247-a386-aac43dc7e9a2")
+	)
+	(junction
+		(at 111.76 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c43c6f33-63a1-4053-b709-74d1cd81271b")
+	)
+	(junction
+		(at 138.43 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c91d1c8d-556a-47da-aaaa-f850b91b3f55")
+	)
+	(junction
+		(at 138.43 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c97a0f5f-7f4b-4be6-bea3-60ed6bec2e2f")
+	)
+	(junction
+		(at 120.65 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad6a99e-b085-48bd-b608-05f0e64f7ad6")
+	)
+	(junction
+		(at 111.76 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cae67e32-559a-4e43-977e-45fc8ebfd24f")
+	)
+	(junction
+		(at 111.76 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc5d3704-fe44-4de6-8cc7-1b496a537fad")
+	)
+	(junction
+		(at 120.65 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc90baec-273d-44b5-85b3-03f1290902f0")
+	)
+	(junction
+		(at 147.32 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d007c143-8583-4e46-a4ed-1da54ad505c1")
+	)
+	(junction
+		(at 88.9 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc1ede51-48f0-4bc0-807e-88c9efc5f6c3")
+	)
+	(junction
+		(at 129.54 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dca1b975-a1d7-4fab-8810-26d0f2bb17fc")
+	)
+	(junction
+		(at 102.87 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd215237-724e-40a5-91f0-402643be4acc")
+	)
+	(junction
+		(at 102.87 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd287e83-a7cd-4c3f-a8e9-4d7af9b671de")
+	)
+	(junction
+		(at 111.76 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de90277a-af7d-4f36-954a-dff04f91b7e0")
+	)
+	(junction
+		(at 138.43 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df4187f1-47e6-4e0c-9023-d9eeb14be747")
+	)
+	(junction
+		(at 129.54 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0741adf-fb7c-49bb-95e7-dccc3d3524a4")
+	)
+	(junction
+		(at 80.01 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e19259bf-6790-409d-8146-2e7356d3a43a")
+	)
+	(junction
+		(at 93.98 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e49b1835-752b-4491-9efd-1fb096898a0b")
+	)
+	(junction
+		(at 129.54 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8afb036-f8f6-4925-a0be-52a1ca208689")
+	)
+	(junction
+		(at 85.09 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb74427-28c4-445c-bd97-86d42fdec71c")
+	)
+	(junction
+		(at 120.65 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edc7c41d-fa2e-4aa8-b41b-50d161937e2f")
+	)
+	(junction
+		(at 93.98 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eec704b5-889c-4b8b-b270-463c26c5d7fe")
+	)
+	(junction
+		(at 102.87 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efaa3ede-8486-4ade-8421-1e955fe7a124")
+	)
+	(junction
+		(at 93.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7930188-3a63-4eb9-bf67-6eb6e8c0d11c")
+	)
+	(junction
+		(at 93.98 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fac16e88-8835-4c31-8955-b95e8dd3e4b6")
+	)
+	(junction
+		(at 114.3 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdcbcb90-c5ce-4a7e-9c73-d9042db7e543")
+	)
+	(wire
+		(pts
+			(xy 111.76 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0035402c-4697-4772-abb4-554fd282f80c")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 106.68 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010c6220-db54-404b-84b2-8982784d69bf")
+	)
+	(wire
+		(pts
+			(xy 120.65 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016de3bb-9331-4028-8730-02978b0b49f3")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 102.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0392f437-ec07-4659-a8e5-f65a03297df4")
+	)
+	(wire
+		(pts
+			(xy 119.38 35.56) (xy 119.38 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fae666-b364-4a49-a979-9a80c1da8338")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.82) (xy 120.65 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f14a3c-a77f-4e31-8bde-26e2841b2c8d")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050b1a87-c49c-4c81-8597-50a53108094e")
+	)
+	(wire
+		(pts
+			(xy 116.84 57.15) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05173e40-d5a9-40fd-a82d-8bbb0cb76bd1")
+	)
+	(wire
+		(pts
+			(xy 102.87 102.87) (xy 111.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09795d4b-b125-4981-a4ce-870c40981733")
+	)
+	(wire
+		(pts
+			(xy 129.54 128.27) (xy 138.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e859369-2e40-4475-a84e-c7036044f3b0")
+	)
+	(wire
+		(pts
+			(xy 111.76 57.15) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118808b1-97c5-41cd-afa7-e6fba9c025bd")
+	)
+	(wire
+		(pts
+			(xy 114.3 19.05) (xy 144.78 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cae08a-d4e2-476b-a417-0e73a2fa2af3")
+	)
+	(wire
+		(pts
+			(xy 156.21 128.27) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d8a681-ddbc-4761-a798-8f6b4405577a")
+	)
+	(wire
+		(pts
+			(xy 144.78 31.75) (xy 144.78 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ff0ac1-371b-41be-b97d-61f5f10c9754")
+	)
+	(wire
+		(pts
+			(xy 102.87 110.49) (xy 93.98 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12780475-8a1c-409d-a8c2-ff22ab48a450")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b116fc-7200-472c-b3e2-7b8b05fc7606")
+	)
+	(wire
+		(pts
+			(xy 123.19 31.75) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b8031e-02c1-4262-ae0e-3145a4a7f2c2")
+	)
+	(wire
+		(pts
+			(xy 93.98 45.72) (xy 93.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1515ab4a-901c-44ff-a062-aad8c909b358")
+	)
+	(wire
+		(pts
+			(xy 120.65 129.54) (xy 129.54 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15638d17-44fc-406c-8146-a787c0572b3d")
+	)
+	(wire
+		(pts
+			(xy 93.98 129.54) (xy 102.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158818f6-ba79-4c27-aa50-9fac619dcd18")
+	)
+	(wire
+		(pts
+			(xy 129.54 120.65) (xy 138.43 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1805a13e-b4db-4fd2-80ec-1dc143481f8e")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1866413b-7026-420e-ad2f-72a8eea836de")
+	)
+	(wire
+		(pts
+			(xy 111.76 120.65) (xy 120.65 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1889d579-e0e6-4cbc-b10b-280e64b7fde1")
+	)
+	(wire
+		(pts
+			(xy 111.76 146.05) (xy 120.65 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19227a94-3eeb-4582-a857-bed3823fd575")
+	)
+	(wire
+		(pts
+			(xy 114.3 35.56) (xy 119.38 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3b738d-b0e4-47be-a7ab-a1a6075eec77")
+	)
+	(wire
+		(pts
+			(xy 111.76 119.38) (xy 102.87 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20094432-efda-44d6-9860-cee0f6e11a09")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20985fd3-9e44-4d5d-a85d-756c95fc875e")
+	)
+	(wire
+		(pts
+			(xy 147.32 128.27) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214f7c9c-0d87-4b94-a89b-d4cf9b69446f")
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "227ccf24-0df3-46d8-8e7e-1559d6f009a9")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 154.94 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231956b5-2dfd-45d6-87d9-fe4f6dbf7dbb")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24c33dbe-0582-4031-b0b2-3a13de536c9c")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 111.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a42bd5d-01ab-4425-bcb1-f7827ce8aff2")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 102.87 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3384d8-aef2-4b8d-b470-771190a07e5e")
+	)
+	(wire
+		(pts
+			(xy 85.09 120.65) (xy 93.98 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d870975-8aa6-4c81-81fb-da8e923d50b9")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcd47c8-c3a5-4c38-85f8-b3ed056b4be6")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324bc86e-1f61-41e8-8c33-302633d5f009")
+	)
+	(wire
+		(pts
+			(xy 147.32 111.76) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358ea6d3-05a3-42c5-8c29-d4c44ea998d2")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 147.32 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aa22e2-ee03-4c22-a8a6-dc97cf590602")
+	)
+	(wire
+		(pts
+			(xy 153.67 137.16) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b95b41-58de-4544-9ae0-60f52ce5aaf3")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 93.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0265f7-a4c1-4d76-b841-460510370725")
+	)
+	(wire
+		(pts
+			(xy 147.32 110.49) (xy 138.43 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8b2cd1-a601-47f7-8ad1-b4ea52a0bc1b")
+	)
+	(wire
+		(pts
+			(xy 111.76 128.27) (xy 120.65 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c6df6e8-9ace-4800-9f90-9df3359f09e0")
+	)
+	(wire
+		(pts
+			(xy 120.65 92.71) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d6a306b-b14a-4e3c-a9a4-ce7960fd14b0")
+	)
+	(wire
+		(pts
+			(xy 138.43 129.54) (xy 147.32 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7b3c52-0893-424d-a54f-147a83664a88")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef265d4-5f33-43dc-80b4-0d7be110c8b8")
+	)
+	(wire
+		(pts
+			(xy 123.19 21.59) (xy 123.19 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3d8b12-f0a9-46e1-8317-9d106bc216e7")
+	)
+	(wire
+		(pts
+			(xy 114.3 19.05) (xy 114.3 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4237e279-0b4c-43b7-a548-7988e1257c04")
+	)
+	(wire
+		(pts
+			(xy 120.65 128.27) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c397a7-a9e2-4121-907f-c6dcb32aabea")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 153.67 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d01fd2-7d12-4961-af89-9101c3681397")
+	)
+	(wire
+		(pts
+			(xy 93.98 137.16) (xy 102.87 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437eee4f-1ae4-4e8e-b884-cd292ffcb393")
+	)
+	(wire
+		(pts
+			(xy 88.9 129.54) (xy 93.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a15dd5-77f9-4957-920f-321bf6e2361a")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46dbab53-6dc7-486d-8adc-335ad5771858")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 111.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abfdeba-f7f2-4554-a1d1-b25e47c60c4f")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5c7e3e-98c8-4152-b70c-0edb8d13aeb2")
+	)
+	(wire
+		(pts
+			(xy 85.09 129.54) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6b6c77-f0e5-49b2-a13a-92f39bee04b5")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d43fb35-6c6a-4d0d-9495-357e451dc588")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51b89b2a-d2dc-4210-b0eb-8b63ef212be0")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53719b48-6790-4428-9208-a4ef4054a79b")
+	)
+	(wire
+		(pts
+			(xy 88.9 138.43) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5402f8d8-cebf-435a-a516-7433e450c761")
+	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 85.09 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55221a30-11ea-40c4-aba8-108dac10d953")
+	)
+	(wire
+		(pts
+			(xy 120.65 83.82) (xy 111.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553c9996-9e45-43c0-9b37-bd451480ed86")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 85.09 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592cdb1d-d637-4cae-95ce-b8d9ce0a2648")
+	)
+	(wire
+		(pts
+			(xy 125.73 57.15) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dc5add-200d-4a22-8c92-e53b1d5b80cb")
+	)
+	(wire
+		(pts
+			(xy 154.94 74.93) (xy 154.94 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8f8f08-5ca7-434c-ae9a-54b3279b3c80")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 80.01 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5feed3a0-4414-445b-90f0-700d8c593007")
+	)
+	(wire
+		(pts
+			(xy 93.98 128.27) (xy 102.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64320775-8711-457a-8626-62c952d1540c")
+	)
+	(wire
+		(pts
+			(xy 125.73 59.69) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65972334-84cc-4f72-8f14-3abb793d36e3")
+	)
+	(wire
+		(pts
+			(xy 120.65 138.43) (xy 129.54 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665af30b-2118-4c61-abd8-99bff9d3ce33")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 138.43 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d6ccdf-78bb-4d84-82b1-0e5b9853892e")
+	)
+	(wire
+		(pts
+			(xy 138.43 146.05) (xy 138.43 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679aaba3-ec3a-4493-a2e8-0d16f5b6becd")
+	)
+	(wire
+		(pts
+			(xy 144.78 19.05) (xy 144.78 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6927af78-7db1-4e6d-bac1-e1e6642f291e")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 85.09 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a997d45-9767-45d4-ae64-9f38e5c27e35")
+	)
+	(wire
+		(pts
+			(xy 106.68 21.59) (xy 114.3 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa3df8e-0710-452d-bb18-68947ba1ac98")
+	)
+	(wire
+		(pts
+			(xy 129.54 92.71) (xy 138.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d20722-8208-418a-a9c6-21406936292c")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72edece5-4fa1-46b8-a853-e32571a4f657")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730112b3-2cd6-453a-bba1-2c2a401b845f")
+	)
+	(wire
+		(pts
+			(xy 114.3 31.75) (xy 114.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734f2119-36a4-415f-85e0-493431686b09")
+	)
+	(wire
+		(pts
+			(xy 93.98 102.87) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b9b5e8-8b5e-42c1-81d4-95e1200cdf09")
+	)
+	(wire
+		(pts
+			(xy 102.87 128.27) (xy 111.76 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750a2151-9dbe-42a0-a3ab-574665bde9ce")
+	)
+	(wire
+		(pts
+			(xy 111.76 102.87) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "751297b7-cb76-495f-a3d2-2646ad5d3a4c")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 111.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f1136d-f54b-423b-b454-e140570db68b")
+	)
+	(wire
+		(pts
+			(xy 106.68 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b4679b-90ef-4b9e-acac-9d51f36a1cc8")
+	)
+	(wire
+		(pts
+			(xy 119.38 21.59) (xy 123.19 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79731598-cd81-433e-a436-818b5e0cb453")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a172d81-723e-48ba-ac54-5ccd3d2f0ca2")
+	)
+	(wire
+		(pts
+			(xy 120.65 67.31) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdcf5e6-de01-492b-92d5-2d951875a393")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 100.33 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb44b15-251f-4ce6-9b75-a53aec8ef17e")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 156.21 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4a3be6-cfc7-49ef-9c05-b979630dfebc")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2fb99d-8a35-483a-96a5-66abed393e4e")
+	)
+	(wire
+		(pts
+			(xy 120.65 146.05) (xy 129.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81973685-d784-4a7b-9554-6d6cffd03d92")
+	)
+	(wire
+		(pts
+			(xy 138.43 128.27) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843ca3f4-364d-4ead-94c4-f37b9db83748")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 156.21 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855425c3-841e-4c5d-8d2d-7db158554435")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 147.32 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858d1e25-e2cd-4ad6-b103-f0e1b107f4f4")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 156.21 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8702ad4d-7d75-4e74-88d6-fd2467b846f2")
+	)
+	(wire
+		(pts
+			(xy 102.87 120.65) (xy 111.76 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871150da-5c0e-42c3-bb0d-cf059ea41903")
+	)
+	(wire
+		(pts
+			(xy 138.43 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8833efbc-bbdb-4880-8a2d-503191206cd7")
+	)
+	(wire
+		(pts
+			(xy 138.43 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a583f6-6e8c-4eea-a3ad-96eb5042deb9")
+	)
+	(wire
+		(pts
+			(xy 162.56 119.38) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ae6846b-d9cf-4956-b5fd-41aea1b226cf")
+	)
+	(wire
+		(pts
+			(xy 162.56 101.6) (xy 162.56 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b94367e-588a-4f3c-a9e3-fba97b3d02bc")
+	)
+	(wire
+		(pts
+			(xy 111.76 129.54) (xy 120.65 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc74971-3613-4d93-bc7b-a9640f2525e0")
+	)
+	(wire
+		(pts
+			(xy 111.76 137.16) (xy 120.65 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f626825-e70e-4664-9440-e38552828b8c")
+	)
+	(wire
+		(pts
+			(xy 138.43 137.16) (xy 147.32 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f7044a-ce92-492e-bab5-40178d3e6344")
+	)
+	(wire
+		(pts
+			(xy 120.65 137.16) (xy 129.54 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b20da9-fc10-4032-acd3-3c26dd0411e6")
+	)
+	(wire
+		(pts
+			(xy 154.94 62.23) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942db23a-2e56-4adc-9f57-a21d8c2b2ef1")
+	)
+	(wire
+		(pts
+			(xy 93.98 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961cc338-8c73-4a1d-b38c-cbb5b54cdc87")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97bcf86f-31a8-45b6-b341-fbe5b25d8d71")
+	)
+	(wire
+		(pts
+			(xy 93.98 67.31) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9901fb8b-d8e2-4c5b-9dc4-5b8242ce060d")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 111.76 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "997c7677-985f-4e9b-b29d-bbf122e335fa")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e89411-e183-4a69-8f5c-77be435cc5a8")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b0497bd-36c1-4ca6-88ec-e039a2117b80")
+	)
+	(wire
+		(pts
+			(xy 85.09 101.6) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8ee60e-4700-418d-b636-141dc6d123c4")
+	)
+	(wire
+		(pts
+			(xy 156.21 119.38) (xy 147.32 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31b642f-262f-46c4-8d9b-c8eb066fe390")
+	)
+	(wire
+		(pts
+			(xy 144.78 39.37) (xy 123.19 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b27964-c382-48e6-9bfd-1d09d6973303")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63533b1-66a0-4019-ab69-c440996f3eec")
+	)
+	(wire
+		(pts
+			(xy 93.98 119.38) (xy 85.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8590795-c63b-422d-b16a-4b26a56f2282")
+	)
+	(wire
+		(pts
+			(xy 93.98 85.09) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5eb296-26b8-4fa1-b21c-2df97de2f90f")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 80.01 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab14395-b9e7-446d-b44f-0b5745dd7388")
+	)
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab2a79e-f768-4038-8434-658b423f9657")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac26ae59-bd1a-472d-8b5b-83b20a2746f1")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 111.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc8d8f5-e0e8-4aed-b672-af34c7146042")
+	)
+	(wire
+		(pts
+			(xy 93.98 111.76) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5344f3-ea7c-4524-9e56-7d31c59f9770")
+	)
+	(wire
+		(pts
+			(xy 120.65 120.65) (xy 129.54 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc2294c-8a3a-44ab-bdc1-57fc9c25dd20")
+	)
+	(wire
+		(pts
+			(xy 80.01 102.87) (xy 85.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b190e017-615b-49a8-80e2-46224171170c")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 102.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32b53b5-5582-45c3-a55d-b2eca6a1909b")
+	)
+	(wire
+		(pts
+			(xy 138.43 120.65) (xy 147.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6fa0611-7731-47cc-9c1f-be8244db6814")
+	)
+	(wire
+		(pts
+			(xy 85.09 111.76) (xy 93.98 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4efafc-d64b-4ea1-8515-20f627927a50")
+	)
+	(wire
+		(pts
+			(xy 88.9 85.09) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd0787b2-ea71-478a-92f9-d3a7d3355736")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcf6939-4be1-4341-ae94-08df2d699928")
+	)
+	(wire
+		(pts
+			(xy 154.94 92.71) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a92a31-aac7-4f0d-819a-92a9e913580a")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1d0ee23-1083-4273-846a-d12baee15510")
+	)
+	(wire
+		(pts
+			(xy 138.43 110.49) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28c7579-1a29-4638-b461-4aa88cdc1b74")
+	)
+	(wire
+		(pts
+			(xy 111.76 138.43) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c434647c-3d92-40fe-96ca-4917eeedccff")
+	)
+	(wire
+		(pts
+			(xy 123.19 39.37) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44312b8-4fee-4992-a79c-ad9e02fcd908")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 120.65 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4844e92-d5b9-49c9-87f9-0aa1817e7bb3")
+	)
+	(wire
+		(pts
+			(xy 120.65 85.09) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7494f0a-7fa6-463d-8e7a-15da2d9b1017")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7630ed9-53dc-43f4-b8cc-94b2374cb46f")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 154.94 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8193e17-4ea4-444e-8942-babcb37f91e3")
+	)
+	(wire
+		(pts
+			(xy 147.32 83.82) (xy 138.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8880f45-fd6d-4439-8a4f-1b075c2228d6")
+	)
+	(wire
+		(pts
+			(xy 129.54 146.05) (xy 138.43 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc44ef8-69ed-4e9b-a129-3a034acb4d47")
+	)
+	(wire
+		(pts
+			(xy 102.87 76.2) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd82f8b1-6a48-440c-913e-b5ac3ef630c0")
+	)
+	(wire
+		(pts
+			(xy 102.87 129.54) (xy 111.76 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf3d29f2-d9d8-4683-9362-f721b9c7e395")
+	)
+	(wire
+		(pts
+			(xy 102.87 83.82) (xy 93.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05b9803-e6f2-4816-bc8b-2ca396fa01b8")
+	)
+	(wire
+		(pts
+			(xy 80.01 102.87) (xy 80.01 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07e9202-b0f5-47ac-9647-94bb0f1dc3f0")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d191ce9e-36be-44b3-81f8-5fc3fee2414c")
+	)
+	(wire
+		(pts
+			(xy 102.87 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ba578f-ca5c-425c-9e53-61fea9db3e40")
+	)
+	(wire
+		(pts
+			(xy 162.56 110.49) (xy 162.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d712243b-f5b3-4ad9-b6a2-845b8e491fc3")
+	)
+	(wire
+		(pts
+			(xy 156.21 110.49) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8c1c09-d22e-457d-b76d-6ff9a6e49a28")
+	)
+	(wire
+		(pts
+			(xy 102.87 111.76) (xy 111.76 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9c7821-2295-45c3-8a60-f9a687593391")
+	)
+	(wire
+		(pts
+			(xy 93.98 120.65) (xy 102.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc59c32-a783-4c6b-bfc6-4344be07615c")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfba6a5a-cf4f-435a-8747-e4ec21a2e99e")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfc9b61f-b877-4e20-bb0d-73702e82ef57")
+	)
+	(wire
+		(pts
+			(xy 85.09 129.54) (xy 88.9 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5548f42-2f31-4b8d-9624-28ddff4e820b")
+	)
+	(wire
+		(pts
+			(xy 138.43 92.71) (xy 147.32 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6063f05-40b8-41fd-849e-473eba6a8a02")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63e707b-968b-43c4-87f2-2d0cc07102a6")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97c402b-3cb3-4134-941f-4863fb66cbae")
+	)
+	(wire
+		(pts
+			(xy 147.32 119.38) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a6d4fc-91cd-46cc-8895-8d5706bdeb6a")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 138.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7a4f4d-f0a2-412b-be38-c2a0c3a2ff0b")
+	)
+	(wire
+		(pts
+			(xy 138.43 119.38) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae1ebcd-6024-4992-8903-afa6c049bb45")
+	)
+	(wire
+		(pts
+			(xy 85.09 102.87) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecd69800-dbdf-462b-bd91-29b668db1972")
+	)
+	(wire
+		(pts
+			(xy 120.65 119.38) (xy 111.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7b97ea-293d-44f3-903b-5dff2bca006f")
+	)
+	(wire
+		(pts
+			(xy 147.32 102.87) (xy 156.21 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f078a100-6e6c-43c6-a3f7-16e17dc662d8")
+	)
+	(wire
+		(pts
+			(xy 102.87 137.16) (xy 111.76 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c0dc07-dd54-4016-8574-cad9be9aa554")
+	)
+	(wire
+		(pts
+			(xy 129.54 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f247d357-d653-4d61-81fa-32dcb0036ec8")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c83831-2623-449b-881d-8afdb7916683")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 129.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5c6052e-32f8-4d3e-a520-dbc94ca12f13")
+	)
+	(wire
+		(pts
+			(xy 114.3 21.59) (xy 114.3 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fdf0c6-0a3d-49c6-9f47-8de993fc0cc9")
+	)
+	(wire
+		(pts
+			(xy 147.32 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7816689-37a6-4d94-8282-751fc9833726")
+	)
+	(wire
+		(pts
+			(xy 102.87 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f6f8b3-4a79-49ee-8f63-805245fdde11")
+	)
+	(wire
+		(pts
+			(xy 116.84 62.23) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94a1d3b-3281-40e1-98b2-a71cfb27df16")
+	)
+	(wire
+		(pts
+			(xy 85.09 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f981f2e4-a217-43e7-acfa-5dc484ef7e4b")
+	)
+	(wire
+		(pts
+			(xy 120.65 102.87) (xy 129.54 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7190e0-58ae-459f-8bfc-4dbd2bd49f87")
+	)
+	(wire
+		(pts
+			(xy 129.54 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe37cd66-a619-48db-a387-9f92e3298e8f")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 120.65 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe781e3c-d8d2-40ff-8e78-7d61de9e8014")
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:Battery_Cell_2x")
+		(lib_id "BitBadge-rescue:Battery_Cell_2x")
+		(at 123.19 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b34f3")
+		(property "Reference" "BT1"
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell_2x"
+			(at 125.73 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:BAT_HOLDER_AAA_DOUBLE_BITBADGE"
+			(at 123.19 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73826460-76f7-42de-bc81-1a9829289eb0")
+		)
+		(pin "2"
+			(uuid "4d7d1cf6-fb14-40d6-b039-c0269281f8a8")
+		)
+		(pin "3"
+			(uuid "340c987b-bbf5-479c-9fab-da6cdcca0031")
+		)
+		(pin "4"
+			(uuid "988058cd-4d4d-449f-abd7-367fee6c73dd")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3933")
+		(property "Reference" "D4"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b6acd86-bc12-49cd-aba5-c21ce675e318")
+		)
+		(pin "2"
+			(uuid "7c33009b-c393-4ec1-a38e-dc27783eb830")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b39e2")
+		(property "Reference" "D5"
+			(at 100.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aef24419-387d-4201-a0a0-98b0d7f061ed")
+		)
+		(pin "2"
+			(uuid "74b265d9-ea48-4b3d-851a-85a2d7f1dd69")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b39ff")
+		(property "Reference" "D6"
+			(at 109.22 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "435bb620-19a9-4251-aa00-2a7537e12f62")
+		)
+		(pin "2"
+			(uuid "fee617a2-d6ae-45a4-8389-32994c3e84cc")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3a1f")
+		(property "Reference" "D7"
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48918d99-d9df-46a3-93b9-873349335869")
+		)
+		(pin "2"
+			(uuid "c4f4ec9e-8e59-411a-a795-4c6a45c18e12")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3a42")
+		(property "Reference" "D8"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "378ee3a2-f401-44f4-afc8-91a4a48470e7")
+		)
+		(pin "2"
+			(uuid "1476dc8f-f603-4a9b-a935-2c3b435256c5")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3a68")
+		(property "Reference" "D9"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956ac8f3-41d3-40e1-959a-6d725a97a9f9")
+		)
+		(pin "2"
+			(uuid "f2f7e399-922f-4c36-9d4b-cd57ea4cd614")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3ae0")
+		(property "Reference" "D1"
+			(at 109.22 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80386542-392d-4023-a44d-b4663425803b")
+		)
+		(pin "2"
+			(uuid "4c6b5544-c0a4-4592-a734-63572b23f510")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3b34")
+		(property "Reference" "D2"
+			(at 118.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c955402-18ba-4704-9b0c-5d8e75c6733d")
+		)
+		(pin "2"
+			(uuid "fd26dfa6-11b4-485c-85c2-b3e36cdf3f7b")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3b67")
+		(property "Reference" "D3"
+			(at 127 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bff1d3df-55c4-45c2-bafb-6aab4ea78405")
+		)
+		(pin "2"
+			(uuid "c0d69dd3-9647-4968-8d12-a7f5affa0861")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3b99")
+		(property "Reference" "D10"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32fa116f-9350-40e0-8dfe-bf0a5c2b905b")
+		)
+		(pin "1"
+			(uuid "dec287eb-9a21-4856-91dd-de1381fdcfc9")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d19")
+		(property "Reference" "D11"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "164d9b15-a55e-4307-99e1-f779fa48dcd4")
+		)
+		(pin "2"
+			(uuid "6434584f-85c0-49fd-9088-90dcbb680563")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d1f")
+		(property "Reference" "D12"
+			(at 100.33 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a0fc10-886c-42d7-939c-d62ec394f8a2")
+		)
+		(pin "2"
+			(uuid "34967c07-8a62-49e8-803a-5d538b97c9cd")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d25")
+		(property "Reference" "D13"
+			(at 109.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0666240d-50d5-42b5-ae7e-4f34450fae08")
+		)
+		(pin "2"
+			(uuid "beeafada-dea1-41ca-9d36-2afa420302c5")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d2b")
+		(property "Reference" "D14"
+			(at 118.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e9951d1-a7cf-4633-a4df-090c041cac1f")
+		)
+		(pin "2"
+			(uuid "4053caee-d2c8-4490-905f-40d9a3649ee3")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d31")
+		(property "Reference" "D15"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "632a22e2-a0cd-4f3b-9083-025def570999")
+		)
+		(pin "2"
+			(uuid "eda86dbd-8f28-4a4c-9b0c-4a05cd1efa61")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d37")
+		(property "Reference" "D16"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "450fb54b-444a-4043-9b9f-4d7b6936f54c")
+		)
+		(pin "2"
+			(uuid "6722b42c-1f04-4caf-bfb8-ead3836fa89c")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3d3d")
+		(property "Reference" "D17"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22a8e587-d35a-417c-87e9-49dbcae38c77")
+		)
+		(pin "2"
+			(uuid "1023543e-28e6-4182-bab2-635d86d3f2cc")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 85.09 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3f81")
+		(property "Reference" "D18"
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78154eb7-cdb9-4189-bfc1-bf0f38949301")
+		)
+		(pin "2"
+			(uuid "c0f337f5-cd8e-430e-bb62-e5df01395dfd")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3f87")
+		(property "Reference" "D19"
+			(at 91.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1aac94b-e809-499d-b6d1-be0f01959fdf")
+		)
+		(pin "2"
+			(uuid "93748b41-2131-47fc-aee1-4a98d150e681")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3f8d")
+		(property "Reference" "D20"
+			(at 100.33 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1355bae0-df1d-44da-b101-4acbf684765f")
+		)
+		(pin "2"
+			(uuid "0d89cf55-02d5-4632-b6b7-57f391ebc67f")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3f93")
+		(property "Reference" "D21"
+			(at 109.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "545d7cf7-5d86-43a1-9ce0-1c3e5574fb42")
+		)
+		(pin "2"
+			(uuid "789874f9-f853-4f1d-bba8-7c0396f933a9")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3f99")
+		(property "Reference" "D22"
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f9de800-2cdd-401c-be2a-2af5dffed372")
+		)
+		(pin "2"
+			(uuid "8b1b6b59-9870-462e-950e-645fe8695141")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3f9f")
+		(property "Reference" "D23"
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "877643cf-1ce0-4931-a055-a3b1a20d86f8")
+		)
+		(pin "2"
+			(uuid "ff7b02db-f6b0-46e4-95f5-cfb2571f464f")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b3fa5")
+		(property "Reference" "D24"
+			(at 135.89 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "965cf767-76e4-4585-a288-eadab61c63ae")
+		)
+		(pin "2"
+			(uuid "ff6aaf4a-d878-4041-9558-54758e21f596")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b402e")
+		(property "Reference" "D25"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3698af75-7db2-4142-bb58-eaccd3abb6fa")
+		)
+		(pin "2"
+			(uuid "bf675b6b-3af7-42d7-b205-b8530b61631e")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 156.21 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b409a")
+		(property "Reference" "D26"
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "193482e8-7939-40b9-b35f-63fb02e7fa3a")
+		)
+		(pin "2"
+			(uuid "abdf9d93-b6fe-44f6-acc3-e9c1576bc75d")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 85.09 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b4264")
+		(property "Reference" "D27"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a72ddbd5-6a1a-432a-8eaa-a36d35f36ce0")
+		)
+		(pin "2"
+			(uuid "7a934ea1-4637-4b2e-994b-a70296553c83")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b426a")
+		(property "Reference" "D28"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d8e5377-bcec-4841-84a3-fe2e40e7271f")
+		)
+		(pin "2"
+			(uuid "de8b741d-edeb-42d5-a255-967ffdf7e478")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b4270")
+		(property "Reference" "D29"
+			(at 100.33 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49948de5-6074-4fac-b9b1-8b24b7fab975")
+		)
+		(pin "2"
+			(uuid "93fbd87e-f518-4bb8-b33b-a24c70f8104d")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b4276")
+		(property "Reference" "D30"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0194c1-27c8-49dc-97dd-1d0c05124227")
+		)
+		(pin "2"
+			(uuid "622d06d0-55b0-4091-a2c0-8fbd523e09ad")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b427c")
+		(property "Reference" "D31"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c836d66-10c6-4b7e-b6b6-e340b6e988ae")
+		)
+		(pin "1"
+			(uuid "20704e18-ac71-40a7-b8a2-400e30ccfd49")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b4282")
+		(property "Reference" "D32"
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b46602-8a9a-461c-b3e6-e9d6e7eb8544")
+		)
+		(pin "2"
+			(uuid "35b7884a-bc2f-4fd1-bb4f-64f0ed236e72")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b4288")
+		(property "Reference" "D33"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6c4f058-10e1-4948-bb74-1ce6bb219263")
+		)
+		(pin "2"
+			(uuid "65f40743-ee3f-4298-878d-730e90f9ed81")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b428e")
+		(property "Reference" "D34"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66255c17-785a-46e7-a697-374534c9f027")
+		)
+		(pin "2"
+			(uuid "4f2e21b1-c12d-4522-81a2-a47657a8b960")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 156.21 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b4294")
+		(property "Reference" "D35"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d6aa819-06e3-4ae7-8dd7-1e338f04d098")
+		)
+		(pin "2"
+			(uuid "517bc5b4-8d06-4f72-9e1d-cb9dd299378a")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 85.09 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48a6")
+		(property "Reference" "D36"
+			(at 82.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 87.63 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "328b346e-f99d-49d6-8b05-5cf9314bdce4")
+		)
+		(pin "2"
+			(uuid "542c0bdd-ce5b-4ebe-8edf-d09526fb20c2")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48ac")
+		(property "Reference" "D37"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0de98a8-33ab-406f-bb48-75ed3d8809c3")
+		)
+		(pin "2"
+			(uuid "46c7531b-a697-4e0b-879d-de6dce5bb5ba")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48b2")
+		(property "Reference" "D38"
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b41c14e5-698f-4fc4-a3ab-6db8b50947ea")
+		)
+		(pin "2"
+			(uuid "f59560f1-b3ce-4bb7-9c71-a1b69651d931")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48b8")
+		(property "Reference" "D39"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09fac773-b303-4858-9828-7bf49423b56c")
+		)
+		(pin "2"
+			(uuid "b008e2bb-2bc6-4292-8e01-84fd3ce1fafd")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48be")
+		(property "Reference" "D40"
+			(at 118.11 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29d9f43a-c20c-4d06-a231-b03c6010969b")
+		)
+		(pin "2"
+			(uuid "e4e0fd52-c080-4775-a4ee-d5f012ddacc4")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48c4")
+		(property "Reference" "D41"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8478dfc4-dbfe-43d2-850d-a9286f73526b")
+		)
+		(pin "2"
+			(uuid "1eac0534-e0f6-4d7a-8ff7-dea1aee8b6cb")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48ca")
+		(property "Reference" "D42"
+			(at 135.89 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84b55405-d6c4-477a-abea-2f645f3cb967")
+		)
+		(pin "2"
+			(uuid "35c1ff12-979d-4aa6-b6a5-47216a1828e7")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48d0")
+		(property "Reference" "D43"
+			(at 144.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1d821d-c590-4889-875e-a1f73a154b37")
+		)
+		(pin "2"
+			(uuid "2e7ccc1e-752a-43d4-a000-465195fdc874")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 156.21 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b48d6")
+		(property "Reference" "D44"
+			(at 153.67 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 158.75 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f98c88-3252-49ca-9dfd-c333b9b9c0e9")
+		)
+		(pin "2"
+			(uuid "7dacb248-d990-47aa-b555-18578bef78fd")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b502e")
+		(property "Reference" "D45"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4972ccf-bee0-439c-9706-b2035687b845")
+		)
+		(pin "2"
+			(uuid "045391da-02b6-4ebf-855f-d695bae0bbd1")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5034")
+		(property "Reference" "D46"
+			(at 100.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb12f08-0f52-400f-a318-9243e055325f")
+		)
+		(pin "2"
+			(uuid "edf71f6b-3bf1-46f6-be49-21e7bb3a2b17")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b503a")
+		(property "Reference" "D47"
+			(at 109.22 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ba9abbb-989a-4292-b9e3-4b15fbaafee5")
+		)
+		(pin "2"
+			(uuid "7d4c03fa-af8c-415c-a1c6-25760b2206fd")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5040")
+		(property "Reference" "D48"
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b309279-7c09-4eb1-8cfd-1279af62155a")
+		)
+		(pin "2"
+			(uuid "843ba33d-4e34-4fcc-88e6-e924b99caaca")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5046")
+		(property "Reference" "D49"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5e55c49-3d1e-40c8-b6f8-c7806e757658")
+		)
+		(pin "2"
+			(uuid "c01d2976-1298-4cf5-b90e-c9b4bd85c156")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b504c")
+		(property "Reference" "D50"
+			(at 135.89 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982b6bc6-60fd-42de-a5ae-48f13d96020a")
+		)
+		(pin "2"
+			(uuid "d631a6e7-8b57-4b3a-89b8-47c187b877ac")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5052")
+		(property "Reference" "D51"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dbc8d39-f901-4938-9af4-aa361afe5455")
+		)
+		(pin "2"
+			(uuid "531513e5-7476-4d7e-a420-725b9853fbf6")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 93.98 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5b96")
+		(property "Reference" "D52"
+			(at 91.44 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da3a6a09-26a7-4e0e-aff7-d1b36e946e19")
+		)
+		(pin "2"
+			(uuid "04ab70d5-d9a0-4e0d-9249-6c073f9b5f8d")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 102.87 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5b9c")
+		(property "Reference" "D53"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 105.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 102.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93b4c753-df49-4132-9468-69ccde23a6e7")
+		)
+		(pin "2"
+			(uuid "117354e7-c931-461f-8b66-48113565c800")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5ba2")
+		(property "Reference" "D54"
+			(at 109.22 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e909b01f-528e-4c2f-83e6-fe836540fd54")
+		)
+		(pin "2"
+			(uuid "360bf911-3892-4550-8ae1-501fca4fb8d1")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5ba8")
+		(property "Reference" "D55"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d01ec3a6-828c-4fb7-a3df-850b9178a827")
+		)
+		(pin "2"
+			(uuid "b4008b20-c569-42c8-aeb8-26087d26b8e1")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5bae")
+		(property "Reference" "D56"
+			(at 127 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe3b5578-0e52-49df-a702-84d6536fe1be")
+		)
+		(pin "2"
+			(uuid "8cf86638-ed7d-47bf-b4f7-fbd5e3c6d526")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 138.43 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5bb4")
+		(property "Reference" "D57"
+			(at 135.89 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "697308bd-e7e1-4e78-874e-a676850742a6")
+		)
+		(pin "2"
+			(uuid "459f6e00-a50f-4115-a553-474e6b8d5296")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 147.32 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b5bba")
+		(property "Reference" "D58"
+			(at 144.78 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be3eef40-0c38-4ea2-9515-31e6ac3603ef")
+		)
+		(pin "2"
+			(uuid "065bae3a-ceb8-4fd3-a17f-5c298e188278")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 111.76 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b60e8")
+		(property "Reference" "D59"
+			(at 109.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 114.3 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c8c2f72-6dbc-416b-8091-c979d7b18402")
+		)
+		(pin "2"
+			(uuid "4f48cd6a-bcb5-4d0d-accd-5993ab434d1b")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 120.65 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b60ee")
+		(property "Reference" "D60"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb1eb854-0507-4b99-9583-3a9cc9a8e432")
+		)
+		(pin "2"
+			(uuid "2f5b3f94-d9a4-4db2-b7f3-3385e832d838")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:LED_ALT")
+		(lib_id "BitBadge-rescue:LED_ALT")
+		(at 129.54 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b60f4")
+		(property "Reference" "D61"
+			(at 127 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_ALT"
+			(at 132.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:TopLed_BitBadge"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e4ae75d-83c8-49c0-9285-aed3b6fbae85")
+		)
+		(pin "2"
+			(uuid "0bb0d57e-3056-45ec-9fa1-b562a005ac28")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:Battery_Cell")
+		(lib_id "BitBadge-rescue:Battery_Cell")
+		(at 144.78 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5b9c0e")
+		(property "Reference" "BT2"
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:CR2032_Holder"
+			(at 144.78 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb32d9b0-8c06-402f-bfc8-8c782d4beacb")
+		)
+		(pin "1"
+			(uuid "0279b3bd-e6a5-464e-b28b-8099f1cec65e")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:R")
+		(lib_id "BitBadge-rescue:R")
+		(at 93.98 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5c1f94")
+		(property "Reference" "R1"
+			(at 96.012 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 93.98 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistors_SMD:R_1210_HandSoldering"
+			(at 92.202 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb8cb555-68d9-4382-b726-689c67f60848")
+		)
+		(pin "2"
+			(uuid "045c213b-992c-43eb-ad61-fbae4dc26a37")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "BitBadge-rescue:SW_2P3T")
+		(lib_id "BitBadge-rescue:SW_2P3T")
+		(at 115.57 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005b5c3302")
+		(property "Reference" "SW1"
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_2P3T"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GaudiLabsFootPrints:SWITCH_MSS23D19"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b9a72e63-ec97-43b0-9697-3792e932897b")
+		)
+		(pin "4"
+			(uuid "cacf362b-6c77-442e-9a80-2fd3036f5e13")
+		)
+		(pin "1"
+			(uuid "7a2a32c4-8cf9-4b4c-a251-1712d805d2e7")
+		)
+		(pin "2"
+			(uuid "558e09f0-a65d-41da-9ab6-995e13221408")
+		)
+		(pin "8"
+			(uuid "44beca5c-33c2-4c2c-980e-b35b34e2a946")
+		)
+		(pin "4"
+			(uuid "7ad22fb1-b4a2-4b26-841c-3b7630d65bf9")
+		)
+		(pin "4"
+			(uuid "00b7f897-33a2-419d-970a-84d607d59326")
+		)
+		(pin "3"
+			(uuid "30fe6dc1-eae4-401b-82a4-e22c08937232")
+		)
+		(pin "3"
+			(uuid "f8ed824e-39b0-43d4-95a9-7b0f7c6b5254")
+		)
+		(pin "5"
+			(uuid "d6d783e4-e5ab-41f6-a67a-d2af638d2f86")
+		)
+		(pin "4"
+			(uuid "a52eb211-4680-4a70-90cc-bdb1b685bd7c")
+		)
+		(pin "3"
+			(uuid "2e54f807-ae86-4cca-8b7f-c05be9d65d5b")
+		)
+		(pin "4"
+			(uuid "335e1052-d759-4dbb-b455-34c37fac397f")
+		)
+		(pin "6"
+			(uuid "db3cadca-174e-45a0-bca2-992e26c85cb5")
+		)
+		(pin "4"
+			(uuid "aeadf343-76a4-4c00-b52e-12123d9f1cca")
+		)
+		(pin "7"
+			(uuid "3b7cbe20-62d1-4143-b279-333f07f008e6")
+		)
+		(instances
+			(project ""
+				(path "/7cabb541-7143-4a18-b062-d5a795ff80c2"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
